@@ -3,7 +3,7 @@ function isLeapYear(a){
         return (a % 4 == 0 && a % 100 != 0) || a % 400 == 0;
     }
 }
-
+//optional
 function isInputValid(year){
     if(isNaN(year)) return false;
     if(year<=0) return false;
